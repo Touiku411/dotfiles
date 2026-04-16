@@ -9,14 +9,14 @@ PKGS_PACMAN=(
     "waybar"
     "rofi-wayland"
     "swaync"       
-    "wlogout"
     "cava"     
     "fastfetch"
     "matugen"
-    "waypaper"
     "git" "base-devel"
 )
 PKGS_AUR=(
+    "wlogout"
+    "waypaper"
     "visual-studio-code-bin"
 )
 
