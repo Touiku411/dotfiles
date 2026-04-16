@@ -37,7 +37,7 @@ yay -S --noconfirm "${PKGS_AUR[@]}"
 
 echo "link..."
 mkdir -p ~/.config
-CONFIG_APPS=("hypr" "kitty" "waybar" "rofi" "swaync" "wlogout" "cava" "fastfetch")
+CONFIG_APPS=("hypr" "kitty" "waybar" "rofi" "swaync" "wlogout" "cava" "fastfetch" "matugen")
 
 
 for app in "${CONFIG_APPS[@]}"; do
