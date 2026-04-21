@@ -13,6 +13,7 @@ PKGS_PACMAN=(
     "fastfetch"
     "matugen"
     "git" "base-devel"
+    "ttf-jetbrains-mono-nerd"
 )
 PKGS_AUR=(
     "swww"
