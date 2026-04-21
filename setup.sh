@@ -15,6 +15,7 @@ PKGS_PACMAN=(
     "git" "base-devel"
 )
 PKGS_AUR=(
+    "swww"
     "wlogout"
     "waypaper"
     "visual-studio-code-bin"
@@ -49,3 +50,5 @@ for app in "${CONFIG_APPS[@]}"; do
         echo "can not find $DOT_DIR/.config/$app... skip..."
     fi
 done
+
+ln -sf bind /bin/usr/awww /bin/usr/swww
