@@ -52,4 +52,4 @@ for app in "${CONFIG_APPS[@]}"; do
     fi
 done
 
-ln -sf bind /bin/usr/awww /bin/usr/swww
+#ln -sf bind /bin/usr/awww /bin/usr/swww
